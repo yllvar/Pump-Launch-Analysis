@@ -73,30 +73,6 @@ The code is organized into several key functional areas:
 - Rate limit management
 - Error recovery
 
-### Configuration
-
-The tool uses centralized configuration through the `API_CONFIG` dictionary:
-- API endpoints
-- Rate limiting parameters
-- Timeout settings
-- Warning thresholds
-
-### Error Handling
-
-Implements a comprehensive error handling strategy:
-- API rate limit detection
-- Network timeout management
-- Data validation
-- Graceful degradation when services are unavailable
-
-### Logging
-
-Uses Python's built-in logging module for:
-- Error tracking
-- Performance monitoring
-- Rate limit notifications
-- Analysis results
-
 ## API Integration
 
 ### RapidAPI Services
@@ -125,24 +101,7 @@ Uses Python's built-in logging module for:
    - Real-time monitoring
    - Event-driven updates
 
-### Performance Considerations
-
-1. **Rate Limiting**
-   - Implements backoff strategies
-   - Manages API quotas
-   - Prevents service disruption
-
-2. **Resource Management**
-   - Efficient memory usage
-   - Controlled API calls
-   - Optimized data processing
-
-3. **Error Recovery**
-   - Graceful degradation
-   - Service continuity
-   - Data integrity preservation
-
-### The code is incomplete and lack of useful value, for Future Design Considerations:
+### The code is incomplete and lack of useful values, for Future Design Considerations:
 
 The architecture supports future enhancements:
 - Additional analysis modules
